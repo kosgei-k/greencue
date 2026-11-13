@@ -111,7 +111,7 @@ void loop() {
       unsigned long elapsedEcoTime = currentMillis - lastEcoCheckTime;
       lastEcoCheckTime = currentMillis;
       
-      if (elapsedEcoTime < 2000) { // Safety guard against loop lag spikes
+      if (elapsedEcoTime < 2000) { 
         // Wh = Watts * (Milliseconds / 3,600,000)
         totalEnergySavedWh += (baselineWattage * ((float)elapsedEcoTime / 3600000.0));
       }
