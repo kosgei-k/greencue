@@ -14,10 +14,10 @@ An Arduino-based IoT prototype designed to optimize room energy consumption thro
 
 ## Component List & Wiring Summary
 * **PIR Motion Sensor:** Connected to Digital Pin 2
-* **LDR Photoresistor Module:** Connected to Analog Pin A0 (with a pull-down resistor forming a voltage divider)
+* **LDR Photoresistor Module:** Connected to Analog Pin A0 
 * **Push Button (Manual Override):** Connected to Digital Pin 3 (`INPUT_PULLUP`)
-* **Red LED (Active Light):** Connected to Digital Pin 13 (via 220Ω resistor)
-* **Green LED (Eco-Mode Light):** Connected to Digital Pin 12 (via 220Ω resistor)
+* **Red LED (Active Light):** Connected to Digital Pin 13 
+* **Green LED (Eco-Mode Light):** Connected to Digital Pin 12 
 * **I2C LCD 16x2 Display:** SDA $\rightarrow$ A4, SCL $\rightarrow$ A5
 
 ## Setup, Run & Demonstration Instructions
